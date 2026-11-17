@@ -1,6 +1,6 @@
 # Breast Cancer Wisconsin Diagnosis
 
-![Breast Cancer Wisconsin Diagnosis Banner](./images/project-banner.png)
+![Breast Cancer Wisconsin Diagnosis Banner](./images/project-banner.svg)
 
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
@@ -59,9 +59,9 @@ Breast Cancer Wisconsin Diagnosis/
 ├── requirement.txt            # Dependency list
 ├── uv.lock                    # Dependency lock file
 ├── images/
-│   ├── project-banner.png      # README header image
-│   ├── model-performance.png   # Accuracy chart
-│   └── feature-correlation.png # Feature correlation visual
+│   ├── project-banner.svg       # README header image
+│   ├── model-performance.png    # Accuracy chart
+│   └── feature-correlation.png  # Feature correlation visual
 └── README.md                  # Project documentation
 ```
 
