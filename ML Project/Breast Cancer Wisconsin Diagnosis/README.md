@@ -84,7 +84,7 @@ git clone https://github.com/your-username/your-repository.git
 cd "Breast Cancer Wisconsin Diagnosis"
 ```
 
-2. Create a virtual environment (optional but recommended):
+1. Create a virtual environment (optional but recommended):
 
 ```bash
 python -m venv .venv
