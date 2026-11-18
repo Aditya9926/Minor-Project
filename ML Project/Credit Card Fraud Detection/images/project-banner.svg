@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Credit Card Fraud Detection</title>
+  <desc id="desc">Machine learning project banner with a credit card and fraud detection shield</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071B33"/>
+      <stop offset="0.65" stop-color="#0B315A"/>
+      <stop offset="1" stop-color="#075985"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#020617" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <circle cx="1040" cy="48" r="190" fill="#38BDF8" opacity="0.07"/>
+  <circle cx="1120" cy="280" r="140" fill="#34D399" opacity="0.06"/>
+
+  <g transform="translate(74 62)" filter="url(#shadow)">
+    <rect width="330" height="196" rx="22" fill="#EAF4FF" opacity="0.12" stroke="#93C5FD" stroke-opacity="0.34"/>
+    <rect x="14" y="14" width="302" height="168" rx="18" fill="url(#card)" opacity="0.96"/>
+    <rect x="14" y="14" width="302" height="168" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity="0.28"/>
+    <rect x="38" y="48" width="48" height="36" rx="8" fill="#DDEBFF" opacity="0.95"/>
+    <path d="M38 66H86M62 48V84" stroke="#94A3B8" stroke-width="3" opacity="0.75"/>
+    <rect x="38" y="105" width="132" height="10" rx="5" fill="#FFFFFF" opacity="0.82"/>
+    <rect x="38" y="128" width="94" height="8" rx="4" fill="#E0F2FE" opacity="0.72"/>
+    <circle cx="274" cy="136" r="23" fill="#FFFFFF" opacity="0.28"/>
+    <circle cx="246" cy="136" r="23" fill="#FFFFFF" opacity="0.18"/>
+  </g>
+
+  <g transform="translate(322 48)" filter="url(#shadow)">
+    <path d="M68 0L132 24V75C132 116 106 147 68 166C30 147 4 116 4 75V24Z" fill="url(#shield)" stroke="#A7F3D0" stroke-width="3"/>
+    <circle cx="68" cy="75" r="35" fill="#ECFDF5" opacity="0.96"/>
+    <path d="M68 53V78M68 78L88 92" fill="none" stroke="#047857" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="68" cy="78" r="5" fill="#047857"/>
+  </g>
+
+  <g transform="translate(500 76)">
+    <text x="0" y="0" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="5">MACHINE LEARNING PROJECT</text>
+    <text x="0" y="58" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="800">CREDIT CARD</text>
+    <text x="0" y="114" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="800">FRAUD DETECTION</text>
+    <rect x="0" y="142" width="392" height="3" rx="2" fill="#38BDF8" opacity="0.8"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Dataset class distribution</title>
+  <desc id="desc">Comparison of 284315 valid and 492 fraudulent transactions</desc>
+  <defs>
+    <linearGradient id="valid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="fraud" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#DC2626"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="#0F172A"/>
+  <text x="60" y="64" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">Transaction Class Distribution</text>
+  <text x="60" y="96" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="17">The target classes are extremely imbalanced</text>
+
+  <text x="60" y="150" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Valid transactions</text>
+  <rect x="60" y="166" width="1060" height="62" rx="12" fill="#1E293B"/>
+  <rect x="60" y="166" width="1056" height="62" rx="12" fill="url(#valid)"/>
+  <text x="1090" y="205" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="end">284,315</text>
+
+  <text x="60" y="272" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Fraudulent transactions</text>
+  <rect x="60" y="288" width="1060" height="62" rx="12" fill="#1E293B"/>
+  <rect x="60" y="288" width="2" height="62" rx="1" fill="url(#fraud)"/>
+  <circle cx="72" cy="319" r="22" fill="#FB7185"/>
+  <text x="72" y="326" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle">492</text>
+
+  <rect x="976" y="352" width="144" height="42" rx="21" fill="#F43F5E" opacity="0.16"/>
+  <text x="1048" y="379" fill="#FDA4AF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">0.173% fraud</text>
+</svg>
